@@ -1,0 +1,45 @@
+name: Security review request
+description: Request review of a security boundary without posting sensitive details.
+title: "Security review: "
+labels: ["security", "review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not post secrets, tokens, private keys, exploit payloads, private logs, or account identifiers. If this is a vulnerability report, follow SECURITY.md instead of filing public details.
+  - type: textarea
+    id: boundary
+    attributes:
+      label: Boundary to review
+      description: Redacted summary of the safety boundary or design question.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - redaction
+        - private artifacts
+        - audit events
+        - risk classes
+        - typed confirmation
+        - launch queue
+        - adapter design
+        - documentation
+    validations:
+      required: true
+  - type: textarea
+    id: concern
+    attributes:
+      label: Concern
+      description: What could go wrong?
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: I did not include secrets, private data, exploit payloads, private logs, or account identifiers.
+          required: true

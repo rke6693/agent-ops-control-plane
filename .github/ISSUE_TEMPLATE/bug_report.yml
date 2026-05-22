@@ -1,0 +1,45 @@
+name: Bug report
+description: Report a reproducible bug without sharing private data.
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include credentials, tokens, private keys, private logs, private memory, account identifiers, or local absolute user paths.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What failed?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction
+      description: Minimal commands or steps using redacted/example data.
+      placeholder: |
+        python3 -m compileall src tests
+        PYTHONPATH=src python3 -m unittest discover -s tests
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: I removed secrets, private data, logs, memory, account identifiers, and local absolute paths.
+          required: true

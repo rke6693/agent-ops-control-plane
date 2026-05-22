@@ -112,6 +112,8 @@ assets/public/                 Reviewed public launch images
 - Image prompt pack: [assets/prompts/chatgpt-image-2-prompts.md](assets/prompts/chatgpt-image-2-prompts.md)
 - Asset review: [docs/ASSET_REVIEW.md](docs/ASSET_REVIEW.md)
 - Security policy: [SECURITY.md](SECURITY.md)
+- Contributing guide: [CONTRIBUTING.md](CONTRIBUTING.md)
+- Release notes: [docs/RELEASE_NOTES_v0.1.0-alpha.md](docs/RELEASE_NOTES_v0.1.0-alpha.md)
 - Publication checklist: [docs/PUBLICATION_READINESS.md](docs/PUBLICATION_READINESS.md)
 - GitHub Actions CI template: [docs/ci/github-actions-ci.yml](docs/ci/github-actions-ci.yml)
 

@@ -13,10 +13,12 @@ https://github.com/rke6693/agent-ops-control-plane
 - Visibility: public.
 - Default branch: `main`.
 - Issues: enabled.
+- Issue templates: enabled via `.github/ISSUE_TEMPLATE/`.
 - Discussions: optional.
 - Wiki: disabled.
 - Actions: enabled.
 - Secret scanning: enabled if available.
+- Dependabot security updates: enabled.
 - Branch protection: enable after initial push.
 - CI template: `docs/ci/github-actions-ci.yml`; move to `.github/workflows/`
   only from a GitHub session with `workflow` scope.

@@ -1,0 +1,46 @@
+name: Adapter request
+description: Request a read-only or approval-gated adapter.
+title: "Adapter: "
+labels: ["adapter", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Adapter requests should start with read-only status or dry-run behavior. Live external actions require explicit approval gates, typed confirmation, audit events, duplicate protection, and a kill switch.
+  - type: input
+    id: target
+    attributes:
+      label: Target system
+      placeholder: systemd status, Docker read-only checks, GitHub release receipts
+    validations:
+      required: true
+  - type: dropdown
+    id: risk
+    attributes:
+      label: Highest expected risk class
+      options:
+        - read_only
+        - local_write
+        - private_data_access
+        - credential_sensitive
+        - external_side_effect
+        - destructive
+        - financial_or_account_action
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Desired workflow
+      description: Describe the safest useful version first.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety expectations
+      options:
+        - label: This can start as read-only or dry-run behavior.
+          required: true
+        - label: Any live external action should be approval-gated and audited.
+          required: true
