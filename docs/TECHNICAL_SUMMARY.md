@@ -91,7 +91,7 @@ This repo is suitable for a first public alpha after:
 - Private logs.
 - Credentials or tokens.
 - Live X API posting.
-- messaging delivery.
+- Messaging delivery.
 - Docker mutation.
 - Account or billing actions.
 - Workstation-specific launchd configuration.

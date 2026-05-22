@@ -9,6 +9,8 @@ Use this checklist before making the repo public or posting launch content.
 - [ ] `.env` is not tracked.
 - [ ] `.venv/` is not tracked.
 - [ ] Generated private artifacts are not tracked.
+- [ ] No account-specific handles, private project names, local absolute user
+      paths, or unreviewed design candidate links are present in tracked text.
 - [ ] README has install, status, scan, test, and launch-queue commands.
 - [ ] GitHub Actions CI is enabled.
 - [ ] Issues are enabled.

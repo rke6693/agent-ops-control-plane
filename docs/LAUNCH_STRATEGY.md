@@ -39,7 +39,7 @@ Promise:
 
 ### Launch Day
 
-- Post X launch thread from example-operator-account after manual approval.
+- Post the launch thread from an operator-approved account after manual approval.
 - Pin repo and README visual.
 - Publish a short technical writeup.
 - Share a demo receipt showing redacted status and approval gating.

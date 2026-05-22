@@ -15,7 +15,7 @@ confirmation, audit, incident receipts, and launch queues.
 
 ## Channels
 
-- X via example-operator-account, approval-gated.
+- X or another social channel via an operator-approved account, approval-gated.
 - GitHub README and releases.
 - Technical blog post.
 - Hacker News "Show HN" after repo polish.

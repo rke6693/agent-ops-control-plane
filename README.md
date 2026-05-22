@@ -111,15 +111,17 @@ assets/public/                 Reviewed public launch images
 - X API autonomy gates: [docs/API_AUTONOMY_GATES.md](docs/API_AUTONOMY_GATES.md)
 - Image prompt pack: [assets/prompts/chatgpt-image-2-prompts.md](assets/prompts/chatgpt-image-2-prompts.md)
 - Asset review: [docs/ASSET_REVIEW.md](docs/ASSET_REVIEW.md)
+- Security policy: [SECURITY.md](SECURITY.md)
 - Publication checklist: [docs/PUBLICATION_READINESS.md](docs/PUBLICATION_READINESS.md)
 - GitHub Actions CI template: [docs/ci/github-actions-ci.yml](docs/ci/github-actions-ci.yml)
 
 ## Important Boundary
 
-This repo intentionally does not include private operator runtime data, raw logs,
-credentials, private memory, messaging identifiers, X API tokens, or workstation
-specific launchd plists. Any live social or account automation must be layered
-behind an explicit approval gate in the operator's own deployment.
+This repo intentionally does not include private runtime data, raw logs,
+credentials, private memory, messaging identifiers, social API tokens, or
+workstation-specific service configuration. Any live social or account
+automation must be layered behind an explicit approval gate in the operator's
+own deployment.
 
 ## Current Public Alpha Scope
 

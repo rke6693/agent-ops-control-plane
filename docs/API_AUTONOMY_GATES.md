@@ -1,7 +1,7 @@
 # X API Autonomy Gates
 
-This document defines the required gates before any example-operator-account/X API
-posting adapter is allowed to publish.
+This document defines the required gates before any live social/X API posting
+adapter is allowed to publish.
 
 ## Current State
 
@@ -48,8 +48,8 @@ APPROVE SOCIAL.PUBLISH
 drafts -> secret scan -> preview -> approval -> dry-run receipt -> typed confirmation -> publish -> audit receipt
 ```
 
-Until this exists, Agent Ops should treat X as a draft-and-approval
-channel only.
+Until this exists, Agent Ops should treat X as a draft-and-approval channel
+only.
 
 ## Current Queue Invariants
 
