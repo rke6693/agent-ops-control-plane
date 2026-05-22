@@ -20,7 +20,7 @@ The brand should feel calm, technical, trustworthy, and local-first.
 - `assets/public/agent-ops-architecture-map-1600x1000.png`
 - `assets/public/agent-ops-risk-rings-1200x675.png`
 - `assets/public/agent-ops-launch-queue-pipeline-1200x675.png`
-- `assets/public/agent-ops-status-receipt-cli.png`
+- `assets/public/agent-ops-status-receipt-cli-1694x929.png`
 - `assets/public/agent-ops-og-image-1200x630.png`
 - `assets/public/agent-ops-demo-status-scan-queue.gif`
 
@@ -38,6 +38,18 @@ The brand should feel calm, technical, trustworthy, and local-first.
 2. Short status receipt snippet.
 3. Architecture map.
 4. Launch queue screenshot or generated card.
+
+## Current Reviewed Asset Set
+
+- `assets/public/agent-ops-control-plane-hero-1600x900.png`
+- `assets/public/agent-ops-architecture-map-1600x1000.png`
+- `assets/public/agent-ops-risk-rings-1200x675.png`
+- `assets/public/agent-ops-launch-queue-pipeline-1200x675.png`
+- `assets/public/agent-ops-status-receipt-cli-1694x929.png`
+- `assets/public/agent-ops-og-image-1200x630.png`
+
+See [ASSET_REVIEW.md](ASSET_REVIEW.md) for visual QA, Canva candidate handling,
+and brand-manager alignment.
 
 ## ChatGPT Image 2 Generation Notes
 

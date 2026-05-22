@@ -49,7 +49,7 @@ criteria.
 2. Architecture graphic:
    `assets/public/agent-ops-architecture-map-1600x1000.png`.
 3. Operator receipt visual:
-   `assets/public/agent-ops-status-receipt-cli.png`.
+   `assets/public/agent-ops-status-receipt-cli-1694x929.png`.
 4. X thread card image:
    `assets/public/agent-ops-og-image-1200x630.png`.
 5. Short terminal demo GIF:

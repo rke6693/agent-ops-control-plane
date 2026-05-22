@@ -1,5 +1,7 @@
 # Agent Ops Control Plane
 
+![Agent Ops Control Plane hero](assets/public/agent-ops-control-plane-hero-1600x900.png)
+
 Local-first safety, reliability, approval-audit, and launch-operations tooling
 for autonomous agent systems.
 
@@ -97,6 +99,7 @@ tests/                         Stdlib unittest coverage
 docs/                          Public architecture and launch strategy
 examples/                      Example configs and social queues
 assets/prompts/                ChatGPT Image 2 prompt pack
+assets/public/                 Reviewed public launch images
 ```
 
 ## Launch Materials
@@ -107,6 +110,7 @@ assets/prompts/                ChatGPT Image 2 prompt pack
 - X launch drafts: [docs/X_LAUNCH_DRAFTS.md](docs/X_LAUNCH_DRAFTS.md)
 - X API autonomy gates: [docs/API_AUTONOMY_GATES.md](docs/API_AUTONOMY_GATES.md)
 - Image prompt pack: [assets/prompts/chatgpt-image-2-prompts.md](assets/prompts/chatgpt-image-2-prompts.md)
+- Asset review: [docs/ASSET_REVIEW.md](docs/ASSET_REVIEW.md)
 - Publication checklist: [docs/PUBLICATION_READINESS.md](docs/PUBLICATION_READINESS.md)
 - GitHub Actions CI template: [docs/ci/github-actions-ci.yml](docs/ci/github-actions-ci.yml)
 

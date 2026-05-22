@@ -15,11 +15,14 @@ Use this checklist before making the repo public or posting launch content.
 
 ## Assets
 
-- [ ] README hero image generated or prompt pack committed.
-- [ ] Architecture image generated or prompt pack committed.
-- [ ] X card image generated or prompt pack committed.
+- [ ] README hero image generated and reviewed.
+- [ ] Architecture image generated and reviewed.
+- [ ] Risk, launch-queue, operator-receipt, and X card images generated and
+      reviewed.
 - [ ] Asset filenames and alt text reviewed.
 - [ ] No generated image contains readable fake secrets or private data.
+- [ ] [ASSET_REVIEW.md](ASSET_REVIEW.md) is current.
+- [ ] Canva candidates are visually reviewed before conversion, export, or use.
 
 ## Social
 
@@ -36,4 +39,3 @@ Use this checklist before making the repo public or posting launch content.
 - [ ] First push explicitly approved.
 - [ ] Live X posting explicitly approved separately.
 - [ ] If posting via API, exact typed confirmation is captured and audited.
-

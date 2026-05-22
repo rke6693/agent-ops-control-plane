@@ -99,7 +99,7 @@ No platform logos and no readable fake post text.
 
 ## 5. Operator Receipt
 
-Suggested filename: `assets/public/agent-ops-status-receipt-cli.png`
+Suggested filename: `assets/public/agent-ops-status-receipt-cli-1694x929.png`
 
 Alt text: Redacted terminal-style status receipt for an agent operations
 system.
