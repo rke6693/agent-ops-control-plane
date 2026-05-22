@@ -48,7 +48,7 @@ and a kill switch.
 If you run local or semi-autonomous agents, clone it, run the status/scan
 commands, and open an issue for the adapter you want first.
 
-Repo: <insert GitHub URL>
+Repo: https://github.com/rke6693/agent-ops-control-plane
 
 ## Standalone Posts
 

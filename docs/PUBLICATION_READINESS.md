@@ -2,7 +2,11 @@
 
 ## Verdict
 
-Ready for a public alpha repo after an explicit external-publish approval.
+Public alpha repo is live:
+
+```text
+https://github.com/rke6693/agent-ops-control-plane
+```
 
 ## Recommended GitHub Settings
 
