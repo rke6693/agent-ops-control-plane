@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-ops-control-plane"
+version = "0.1.0"
+description = "Local-first safety, reliability, and launch operations tooling for autonomous agents."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Agent Ops Control Plane Contributors"}]
+keywords = ["agents", "ai", "operations", "security", "audit", "local-first"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Software Development :: Quality Assurance",
+  "Topic :: System :: Monitoring",
+]
+
+[project.scripts]
+agent-ops = "agent_ops_control_plane.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

@@ -1,0 +1,11 @@
+{
+  "project": "agent-ops-control-plane",
+  "live_publish_enabled": false,
+  "approval_required": true,
+  "audit_path": "artifacts/private/audit/events.jsonl",
+  "risk_policy": {
+    "unknown_defaults_to_restricted": true,
+    "high_risk_requires_exact_confirmation": true
+  }
+}
+
